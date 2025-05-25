@@ -19,7 +19,7 @@ df[filtro]
 clientes = pd.read_csv("../data/clientes.csv")
 clientes.head()
 
-# valores nulos
+# analisando se tem valores nulos
 clientes["dtCriacao"].isna() 
 
 #negacao da afirmacao
